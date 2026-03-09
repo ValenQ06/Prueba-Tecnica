@@ -1,0 +1,56 @@
+<app-header></app-header>
+
+<div class="container">
+  <h2>Lista Comerciantes</h2>
+
+  <div class="actions">
+    <button class="btn-primary">Crear Comerciante</button>
+
+    <button class="btn-danger" *ngIf="role == 'Administrador'" (click)="descargarCSV()">
+      Descargar CSV
+    </button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Razón Social</th>
+        <th>Teléfono</th>
+        <th>Correo</th>
+        <th>Fecha Registro</th>
+        <th>Establecimientos</th>
+        <th>Estado</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let c of comerciantes">
+        <td>{{ c.nombreRazonSocial }}</td>
+        <td>{{ c.telefono }}</td>
+        <td>{{ c.correoElectronico }}</td>
+        <td>{{ c.fechaRegistro }}</td>
+        <td>{{ c.cantidadEstablecimientos }}</td>
+
+        <td>
+          <span [class.active]="c.estado == 'Activo'" [class.inactive]="c.estado == 'Inactivo'">
+            {{ c.estado }}
+          </span>
+        </td>
+
+        <td>
+          <button>✏</button>
+
+          <button (click)="cambiarEstado(c.id)">🔄</button>
+
+          <button *ngIf="role == 'Administrador'" (click)="eliminar(c.id)">🗑</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <select [(ngModel)]="pageSize" (change)="cargarComerciantes()">
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="15">15</option>
+</select>
+</div>

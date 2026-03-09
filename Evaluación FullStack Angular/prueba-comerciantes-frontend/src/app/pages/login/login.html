@@ -1,0 +1,54 @@
+<div class="login-background">
+
+  <div class="login-card">
+
+    <h2>Debes iniciar sesión para acceder a la plataforma</h2>
+
+    <p class="subtitle">
+      Digita tu documento de identidad del propietario o representante legal y la contraseña
+    </p>
+
+    <form (ngSubmit)="login()">
+
+      <div class="form-group">
+        <label>Correo Electrónico</label>
+        <input
+          type="email"
+          [(ngModel)]="email"
+          name="email"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Contraseña</label>
+        <input
+          type="password"
+          [(ngModel)]="password"
+          name="password"
+          required
+        />
+      </div>
+
+      <div class="terms">
+        <input
+          type="checkbox"
+          [(ngModel)]="terms"
+          name="terms"
+        />
+        <span>Acepto términos y condiciones</span>
+      </div>
+
+      <button
+        type="submit"
+        [disabled]="!terms"
+        class="login-btn"
+      >
+        Iniciar sesión
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
