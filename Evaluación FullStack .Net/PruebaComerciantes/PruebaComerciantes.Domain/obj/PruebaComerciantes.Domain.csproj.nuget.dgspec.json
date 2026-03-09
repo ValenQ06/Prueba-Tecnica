@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj": {}
+    "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj": {
+    "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj",
+        "projectUniqueName": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj",
         "projectName": "PruebaComerciantes.Domain",
-        "projectPath": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj",
+        "projectPath": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj",
         "packagesPath": "C:\\Users\\Valentina Quiñones\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\obj\\",
+        "outputPath": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

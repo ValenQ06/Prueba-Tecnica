@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "doGI+3bZ0LQ=",
+  "dgSpecHash": "K8JzOswLE9U=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Tests\\PruebaComerciantes.Tests.vbproj",
+  "projectFilePath": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Tests\\PruebaComerciantes.Tests.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valentina Quiñones\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Valentina Quiñones\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

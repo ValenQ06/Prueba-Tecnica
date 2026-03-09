@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("PruebaComerciantes.Tests"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb40f134f4efcd06420f9b0e475353e46b2a6e88"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("PruebaComerciantes.Tests"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("PruebaComerciantes.Tests"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 

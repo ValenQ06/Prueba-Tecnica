@@ -1,17 +1,11 @@
-<header class="header">
+<nav class="navbar navbar-dark bg-dark px-3">
+  <span class="navbar-brand fw-bold"> Prueba Comerciantes </span>
 
-  <div class="logo">
-    <h3>Prueba Comerciantes</h3>
+  <div class="text-white">
+    <span class="me-3"> Usuario: {{ userName }} </span>
+
+    <span class="me-3"> Rol: {{ role }} </span>
+
+    <button class="btn btn-outline-light btn-sm" (click)="logout()">Cerrar sesión</button>
   </div>
-
-  <div class="user-info">
-
-    <span>Usuario: {{userName}}</span>
-
-    <span>Rol: {{role}}</span>
-
-  </div>
-
-  <button (click)="logout()">Cerrar sesión</button>
-
-</header>
+</nav>

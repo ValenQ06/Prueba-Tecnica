@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EeHSMrgUDkY=",
+  "dgSpecHash": "BW7FZwlftr0=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Infrastructure\\PruebaComerciantes.Infrastructure.csproj",
+  "projectFilePath": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Infrastructure\\PruebaComerciantes.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valentina Quiñones\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Valentina Quiñones\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

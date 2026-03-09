@@ -580,11 +580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\PruebaComerciantes.Application.csproj",
+      "projectUniqueName": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\PruebaComerciantes.Application.csproj",
       "projectName": "PruebaComerciantes.Application",
-      "projectPath": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\PruebaComerciantes.Application.csproj",
+      "projectPath": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\PruebaComerciantes.Application.csproj",
       "packagesPath": "C:\\Users\\Valentina Quiñones\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\obj\\",
+      "outputPath": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -606,8 +606,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj": {
-              "projectPath": "C:\\DEV\\Projects\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj"
+            "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj": {
+              "projectPath": "C:\\DEV\\Prueba-Tecnica\\Evaluación FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj"
             }
           }
         }

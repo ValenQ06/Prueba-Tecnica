@@ -1,0 +1,61 @@
+<app-header></app-header>
+
+<div class="container mt-4">
+  <div class="card shadow">
+    <div class="card-header bg-primary text-white">
+      <h4 class="mb-0">
+        {{ esEdicion ? 'Editar Comerciante' : 'Crear Comerciante' }}
+      </h4>
+    </div>
+
+    <div class="card-body">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Razón Social *</label>
+          <input class="form-control" [(ngModel)]="comerciante.nombreRazonSocial" />
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Correo</label>
+          <input class="form-control" type="email" [(ngModel)]="comerciante.correoElectronico" />
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Municipio</label>
+          <select class="form-select" [(ngModel)]="comerciante.municipioId">
+            <option *ngFor="let m of municipios" [value]="m.id">
+              {{ m.nombre }}
+            </option>
+          </select>
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Teléfono</label>
+          <input class="form-control" [(ngModel)]="comerciante.telefono" />
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Fecha Registro</label>
+          <input class="form-control" type="date" [(ngModel)]="comerciante.fechaRegistro" />
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Estado</label>
+          <select class="form-select" [(ngModel)]="comerciante.estado">
+            <option value="Activo">Activo</option>
+            <option value="Inactivo">Inactivo</option>
+          </select>
+        </div>
+
+        <div class="col-12 form-check mt-2">
+          <input class="form-check-input" type="checkbox" />
+          <label class="form-check-label"> ¿Posee establecimientos? </label>
+        </div>
+      </div>
+
+      <div class="mt-4 text-end">
+        <button class="btn btn-success" (click)="guardar()">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
