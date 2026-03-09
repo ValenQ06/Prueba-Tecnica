@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../PruebaComerciantes.Application/PruebaComerciantes.Application.csproj" Id="8b8384c5-5344-497d-af1b-b3a9a8d74c50" />
+  <Project Path="../PruebaComerciantes.Domain/PruebaComerciantes.Domain.csproj" Id="6e4472b8-b634-4a48-a9e6-24a02af3e5f8" />
+  <Project Path="../PruebaComerciantes.Infrastructure/PruebaComerciantes.Infrastructure.csproj" Id="7426cab9-e319-45d9-8c55-9ef5a470fdec" />
+  <Project Path="../PruebaComerciantes.Tests/PruebaComerciantes.Tests.vbproj" Id="25ffb916-5bfe-4f54-adc4-cf0b70d25fbc" />
+  <Project Path="PruebaComerciantes/PruebaComerciantes.csproj" />
+</Solution>

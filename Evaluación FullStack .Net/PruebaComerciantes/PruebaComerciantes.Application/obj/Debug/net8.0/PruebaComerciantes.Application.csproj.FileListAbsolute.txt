@@ -1,0 +1,15 @@
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\bin\Debug\net8.0\PruebaComerciantes.Application.deps.json
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\bin\Debug\net8.0\PruebaComerciantes.Application.dll
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\bin\Debug\net8.0\PruebaComerciantes.Application.pdb
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\bin\Debug\net8.0\PruebaComerciantes.Domain.dll
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\bin\Debug\net8.0\PruebaComerciantes.Domain.pdb
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaComerciantes.Application.csproj.AssemblyReference.cache
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaComerciantes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaComerciantes.Application.AssemblyInfoInputs.cache
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaComerciantes.Application.AssemblyInfo.cs
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaComerciantes.Application.csproj.CoreCompileInputs.cache
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaCo.F569F22E.Up2Date
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaComerciantes.Application.dll
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\refint\PruebaComerciantes.Application.dll
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\PruebaComerciantes.Application.pdb
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Application\obj\Debug\net8.0\ref\PruebaComerciantes.Application.dll

@@ -1,0 +1,11 @@
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\bin\Debug\net8.0\PruebaComerciantes.Domain.deps.json
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\bin\Debug\net8.0\PruebaComerciantes.Domain.dll
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\bin\Debug\net8.0\PruebaComerciantes.Domain.pdb
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\PruebaComerciantes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\PruebaComerciantes.Domain.AssemblyInfoInputs.cache
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\PruebaComerciantes.Domain.AssemblyInfo.cs
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\PruebaComerciantes.Domain.csproj.CoreCompileInputs.cache
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\PruebaComerciantes.Domain.dll
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\refint\PruebaComerciantes.Domain.dll
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\PruebaComerciantes.Domain.pdb
+C:\DEV\Projects\Evaluación FullStack .Net\PruebaComerciantes\PruebaComerciantes.Domain\obj\Debug\net8.0\ref\PruebaComerciantes.Domain.dll
