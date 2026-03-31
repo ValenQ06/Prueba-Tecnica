@@ -1,12 +1,101 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{651FD304-6C62-80E5-2706-9111000CAB44}|PruebaComerciantes\\PruebaComerciantes.csproj|c:\\dev\\prueba-tecnica\\evaluaci\u00F3n fullstack .net\\pruebacomerciantes\\pruebacomerciantes\\pruebacomerciantes\\controllers\\comerciantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651FD304-6C62-80E5-2706-9111000CAB44}|PruebaComerciantes\\PruebaComerciantes.csproj|solutionrelative:pruebacomerciantes\\controllers\\comerciantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7426CAB9-E319-45D9-8C55-9EF5A470FDEC}|..\\PruebaComerciantes.Infrastructure\\PruebaComerciantes.Infrastructure.csproj|c:\\dev\\prueba-tecnica\\evaluaci\u00F3n fullstack .net\\pruebacomerciantes\\pruebacomerciantes.infrastructure\\services\\comercianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B8384C5-5344-497D-AF1B-B3A9A8D74C50}|..\\PruebaComerciantes.Application\\PruebaComerciantes.Application.csproj|c:\\dev\\prueba-tecnica\\evaluaci\u00F3n fullstack .net\\pruebacomerciantes\\pruebacomerciantes.application\\interfaces\\icomercianteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B8384C5-5344-497D-AF1B-B3A9A8D74C50}|..\\PruebaComerciantes.Application\\PruebaComerciantes.Application.csproj|c:\\dev\\prueba-tecnica\\evaluaci\u00F3n fullstack .net\\pruebacomerciantes\\pruebacomerciantes.application\\dtos\\comerciantedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4472B8-B634-4A48-A9E6-24A02AF3E5F8}|..\\PruebaComerciantes.Domain\\PruebaComerciantes.Domain.csproj|c:\\dev\\prueba-tecnica\\evaluaci\u00F3n fullstack .net\\pruebacomerciantes\\pruebacomerciantes.domain\\entities\\comerciante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IComercianteService.cs",
+              "DocumentMoniker": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\Interfaces\\IComercianteService.cs",
+              "RelativeDocumentMoniker": "..\\PruebaComerciantes.Application\\Interfaces\\IComercianteService.cs",
+              "ToolTip": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\Interfaces\\IComercianteService.cs",
+              "RelativeToolTip": "..\\PruebaComerciantes.Application\\Interfaces\\IComercianteService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T04:27:55.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComercianteDto.cs",
+              "DocumentMoniker": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\DTOs\\ComercianteDto.cs",
+              "RelativeDocumentMoniker": "..\\PruebaComerciantes.Application\\DTOs\\ComercianteDto.cs",
+              "ToolTip": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Application\\DTOs\\ComercianteDto.cs",
+              "RelativeToolTip": "..\\PruebaComerciantes.Application\\DTOs\\ComercianteDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T20:41:09.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comerciante.cs",
+              "DocumentMoniker": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\Entities\\Comerciante.cs",
+              "RelativeDocumentMoniker": "..\\PruebaComerciantes.Domain\\Entities\\Comerciante.cs",
+              "ToolTip": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Domain\\Entities\\Comerciante.cs",
+              "RelativeToolTip": "..\\PruebaComerciantes.Domain\\Entities\\Comerciante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T20:20:44.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComercianteService.cs",
+              "DocumentMoniker": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Infrastructure\\Services\\ComercianteService.cs",
+              "RelativeDocumentMoniker": "..\\PruebaComerciantes.Infrastructure\\Services\\ComercianteService.cs",
+              "ToolTip": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes.Infrastructure\\Services\\ComercianteService.cs",
+              "RelativeToolTip": "..\\PruebaComerciantes.Infrastructure\\Services\\ComercianteService.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAuwMwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T20:19:02.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComerciantesController.cs",
+              "DocumentMoniker": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes\\PruebaComerciantes\\Controllers\\ComerciantesController.cs",
+              "RelativeDocumentMoniker": "PruebaComerciantes\\Controllers\\ComerciantesController.cs",
+              "ToolTip": "C:\\DEV\\Prueba-Tecnica\\Evaluaci\u00F3n FullStack .Net\\PruebaComerciantes\\PruebaComerciantes\\PruebaComerciantes\\Controllers\\ComerciantesController.cs",
+              "RelativeToolTip": "PruebaComerciantes\\Controllers\\ComerciantesController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwD0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T16:10:09.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

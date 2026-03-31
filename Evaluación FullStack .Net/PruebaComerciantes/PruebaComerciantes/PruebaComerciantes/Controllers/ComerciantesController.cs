@@ -60,11 +60,11 @@ namespace PruebaComerciantes.Controllers
         }
 
         [HttpPatch("{id}/estado")]
-        public async Task<IActionResult> ChangeStatus(int id, bool estado)
+        public async Task<IActionResult> ChangeStatus(int id)
         {
             var usuario = User.Identity?.Name ?? "system";
 
-            return Ok(await _service.ChangeStatusAsync(id, estado, usuario));
+            return Ok(await _service.ChangeStatusAsync(id, usuario));
         }
     }
 }

@@ -12,18 +12,27 @@
       <div class="row g-3">
         <div class="col-md-6">
           <label class="form-label">Razón Social *</label>
-          <input class="form-control" [(ngModel)]="comerciante.nombreRazonSocial" />
+          <input
+            name="nombreRazonSocial"
+            class="form-control"
+            [(ngModel)]="comerciante.nombreRazonSocial"
+          />
         </div>
 
         <div class="col-md-6">
           <label class="form-label">Correo</label>
-          <input class="form-control" type="email" [(ngModel)]="comerciante.correoElectronico" />
+          <input
+            name="correo"
+            class="form-control"
+            type="email"
+            [(ngModel)]="comerciante.correoElectronico"
+          />
         </div>
 
         <div class="col-md-6">
           <label class="form-label">Municipio</label>
-          <select class="form-select" [(ngModel)]="comerciante.municipioId">
-            <option *ngFor="let m of municipios" [value]="m.id">
+          <select name="municipio" class="form-select" [(ngModel)]="comerciante.municipioId">
+            <option *ngFor="let m of municipios" [ngValue]="m.id">
               {{ m.nombre }}
             </option>
           </select>
@@ -31,17 +40,22 @@
 
         <div class="col-md-6">
           <label class="form-label">Teléfono</label>
-          <input class="form-control" [(ngModel)]="comerciante.telefono" />
+          <input name="telefono" class="form-control" [(ngModel)]="comerciante.telefono" />
         </div>
 
         <div class="col-md-6">
           <label class="form-label">Fecha Registro</label>
-          <input class="form-control" type="date" [(ngModel)]="comerciante.fechaRegistro" />
+          <input
+            name="fecha"
+            class="form-control"
+            type="date"
+            [(ngModel)]="comerciante.fechaRegistro"
+          />
         </div>
 
         <div class="col-md-6">
           <label class="form-label">Estado</label>
-          <select class="form-select" [(ngModel)]="comerciante.estado">
+          <select name="estado" class="form-select" [(ngModel)]="comerciante.estado">
             <option value="Activo">Activo</option>
             <option value="Inactivo">Inactivo</option>
           </select>
@@ -53,7 +67,9 @@
         </div>
       </div>
 
-      <div class="mt-4 text-end">
+      <div class="mt-4 d-flex justify-content-end gap-2">
+        <button class="btn btn-secondary" (click)="cancelar()">Cancelar</button>
+
         <button class="btn btn-success" (click)="guardar()">Guardar</button>
       </div>
     </div>

@@ -49,7 +49,8 @@ namespace PruebaComerciantes.Infrastructure.Services
                     Telefono = x.Telefono,
                     CorreoElectronico = x.CorreoElectronico,
                     FechaRegistro = x.FechaRegistro,
-                    Estado = x.Estado
+                    Estado = x.Estado,
+                    CantidadEstablecimientos = x.Establecimientos.Count
                 })
                 .ToListAsync();
 
@@ -89,7 +90,8 @@ namespace PruebaComerciantes.Infrastructure.Services
                 Telefono = comerciante.Telefono,
                 CorreoElectronico = comerciante.CorreoElectronico,
                 FechaRegistro = comerciante.FechaRegistro,
-                Estado = comerciante.Estado
+                Estado = comerciante.Estado,
+                CantidadEstablecimientos = comerciante.Establecimientos.Count
             };
 
             return new ApiResponse<ComercianteDto>
@@ -182,7 +184,7 @@ namespace PruebaComerciantes.Infrastructure.Services
             };
         }
 
-        public async Task<ApiResponse<bool>> ChangeStatusAsync(int id, bool estado, string usuario)
+        public async Task<ApiResponse<bool>> ChangeStatusAsync(int id, string usuario)
         {
             var entity = await _context.Comerciantes.FindAsync(id);
 
@@ -193,27 +195,15 @@ namespace PruebaComerciantes.Infrastructure.Services
                     Message = "Comerciante no encontrado"
                 };
 
-            // Buscar el usuario en la BD
-            var usuarioDb = await _context.Usuarios
-                .FirstOrDefaultAsync(x => x.CorreoElectronico == usuario);
-
-            if (usuarioDb == null)
-                return new ApiResponse<bool>
-                {
-                    Success = false,
-                    Message = "Usuario no encontrado"
-                };
-
-            entity.Estado = estado ? "Activo" : "Inactivo";
-            entity.UsuarioActualizacion = usuarioDb.Id;
-            entity.FechaActualizacion = DateTime.Now;
+            // TOGGLE
+            entity.Estado = entity.Estado == "Activo" ? "Inactivo" : "Activo";
 
             await _context.SaveChangesAsync();
 
             return new ApiResponse<bool>
             {
                 Success = true,
-                Message = "Estado actualizado",
+                Message = "Estado actualizado correctamente",
                 Data = true
             };
         }

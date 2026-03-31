@@ -1,3 +1,4 @@
+import { ChangeDetectorRef } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../../components/header/header';
 import { ComercianteService } from '../../services/comerciante';
@@ -5,6 +6,7 @@ import { jwtDecode } from 'jwt-decode';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-home',
@@ -21,9 +23,14 @@ export class HomeComponent implements OnInit {
 
   role = '';
 
+  get totalPages(): number {
+    return Math.ceil(this.totalRecords / this.pageSize);
+  }
+
   constructor(
     private comercianteService: ComercianteService,
     private router: Router,
+    private cd: ChangeDetectorRef,
   ) {
     const token: any = localStorage.getItem('token');
 
@@ -36,19 +43,21 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.cargarComerciantes();
-    }, 300);
+    }, 200);
   }
 
   cargarComerciantes() {
     this.comercianteService.getPaged(this.page, this.pageSize).subscribe((res: any) => {
-      console.log('DATA TABLA:', res.data.data);
+      console.log('Respuesta API:', res);
 
       if (res.success) {
-        this.comerciantes = res.data?.data || res.data;
+        this.comerciantes = res.data.data || [];
 
-        this.totalRecords = res.data?.totalRecords || this.comerciantes.length;
+        this.totalRecords = res.data.totalRecords || 0;
 
         this.comerciantes = [...this.comerciantes];
+
+        this.cd.detectChanges(); // 🔥 ESTA ES LA CLAVE
       }
     });
   }
@@ -58,9 +67,41 @@ export class HomeComponent implements OnInit {
   }
 
   eliminar(id: number) {
-    if (confirm('¿Eliminar comerciante?')) {
-      this.comercianteService.eliminar(id).subscribe(() => this.cargarComerciantes());
-    }
+    Swal.fire({
+      title: '¿Estás segura?',
+      text: 'Este comerciante será eliminado',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Sí, eliminar',
+      cancelButtonText: 'Cancelar',
+      confirmButtonColor: '#dc3545',
+      cancelButtonColor: '#6c757d',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        this.comercianteService.eliminar(id).subscribe({
+          next: () => {
+            Swal.fire({
+              title: 'Eliminado',
+              text: 'El comerciante fue eliminado correctamente',
+              icon: 'success',
+              confirmButtonColor: '#28a745',
+            });
+
+            this.cargarComerciantes();
+          },
+          error: (err) => {
+            console.error(err);
+
+            Swal.fire({
+              title: 'Error',
+              text: 'No se pudo eliminar',
+              icon: 'error',
+              confirmButtonColor: '#dc3545',
+            });
+          },
+        });
+      }
+    });
   }
 
   editar(id: number) {
@@ -81,5 +122,10 @@ export class HomeComponent implements OnInit {
       a.download = 'reporte_comerciantes.csv';
       a.click();
     });
+  }
+
+  cambiarPagina(p: number) {
+    this.page = p;
+    this.cargarComerciantes();
   }
 }

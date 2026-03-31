@@ -19,6 +19,6 @@ namespace PruebaComerciantes.Application.Interfaces
 
         Task<ApiResponse<bool>> DeleteAsync(int id);
 
-        Task<ApiResponse<bool>> ChangeStatusAsync(int id, bool estado, string usuario);
+        Task<ApiResponse<bool>> ChangeStatusAsync(int id, string usuario);
     }
 }

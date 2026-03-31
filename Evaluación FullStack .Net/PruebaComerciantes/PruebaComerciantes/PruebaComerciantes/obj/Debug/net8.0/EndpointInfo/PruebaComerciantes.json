@@ -217,13 +217,6 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "estado",
-            "in": "query",
-            "schema": {
-              "type": "boolean"
-            }
           }
         ],
         "responses": {
@@ -299,6 +292,10 @@
           "municipio": {
             "type": "string",
             "nullable": true
+          },
+          "cantidadEstablecimientos": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

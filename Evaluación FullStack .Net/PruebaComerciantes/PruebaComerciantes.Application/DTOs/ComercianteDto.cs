@@ -23,5 +23,7 @@ namespace PruebaComerciantes.Application.DTOs
         public string? Estado { get; set; }
 
         public string Municipio { get; set; }
+
+        public int CantidadEstablecimientos { get; set; }
     }
 }
