@@ -43,14 +43,14 @@ export class ComercianteFormComponent implements OnInit {
       this.esEdicion = true;
     }
 
-    this.cargarMunicipios(); // 🔥 esto dispara todo
+    this.cargarMunicipios();
   }
 
   cargarMunicipios() {
     this.comercianteService.getMunicipios().subscribe((res: any) => {
       this.municipios = res.data;
 
-      // 🔥 SOLO después de cargar municipios
+      // SOLO después de cargar municipios
       if (this.esEdicion) {
         this.cargarComerciante(this.id);
       }
@@ -66,7 +66,6 @@ export class ComercianteFormComponent implements OnInit {
       if (res.success) {
         const c = res.data;
 
-        // 🔥 IMPORTANTE: NO reemplazar el objeto
         this.comerciante.nombreRazonSocial = c.nombreRazonSocial;
         this.comerciante.municipioId = c.idMunicipio;
         this.comerciante.telefono = c.telefono;

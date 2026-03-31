@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaComerciantes.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44f952633c9a16089515401595acff68d847f9b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7993d967fe9772bb12c71255968827de1092de1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaComerciantes.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaComerciantes.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

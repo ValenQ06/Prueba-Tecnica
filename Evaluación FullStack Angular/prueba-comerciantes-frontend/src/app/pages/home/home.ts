@@ -57,7 +57,7 @@ export class HomeComponent implements OnInit {
 
         this.comerciantes = [...this.comerciantes];
 
-        this.cd.detectChanges(); // 🔥 ESTA ES LA CLAVE
+        this.cd.detectChanges();
       }
     });
   }
